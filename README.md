@@ -105,7 +105,7 @@ service crisp-status-local restart
 
 #### C. Install from binary
 
-A pre-built binary of Crisp Status Local is shared in the releases on GitHub. You can simply download the latest binary version from the [releases page](https://github.com/crisp-im/crisp-status-local/releases), and run it on your server. Each release binary comes with an `.asc` signature file, which can be verified using [Crisp GPG key](https://docs.crisp.chat/guides/others/security-practices/#vulnerability-disclosures).
+A pre-built binary of Crisp Status Local is shared in the releases on GitHub. You can simply download the latest binary version from the [releases page](https://github.com/crisp-im/crisp-status-local/releases), and run it on your server.
 
 You will still need to provide the binary with the configuration file, so make sure you have a Crisp Status Local `config.cfg` file ready somewhere.
 
