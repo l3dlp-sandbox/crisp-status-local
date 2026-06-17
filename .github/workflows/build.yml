@@ -47,6 +47,10 @@ jobs:
         id: current_tag
         uses: WyriHaximus/github-action-get-previous-tag@v1
 
+      - name: Authenticate to registry
+        uses: rust-lang/crates-io-auth-action@v1
+        id: auth
+
       - name: Release package
         run: cargo publish --no-verify
         env:
